@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  background-color: aquamarine;
+  transition: 1.5s;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 120px;
+  transition: .5s;
+}
+
+.output {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+}
+
+.output__item {
+  width: 25%;
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgba(171, 255, 4, 0.322);
+  text-align: center;
+ 
+}
+
+.output {
+}
+.image {
+  color: yellowgreen;
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 2px 7px gold;
+
+}
+.output__name {
+  color: yellow;
+
+}
+.output__alternate_names {
+  color: aqua;
+}
+.output__species {
+  color: aquamarine;
+}
+.output__gender {
+  color: violet;
+}
+.output__house {
+color: turquoise;
+}
+.output__dateOfBirth {
+color: springgreen;
+}
+.output__yearOfBirth {
+color: black;
+}
+.output__wizard {
+  color: teal;
+}
+.output__ancestry {
+  color: blue;
+}
+.output__half-blood {
+  color: blueviolet;
+}
+.output__eyeColour {
+color: brown;
+}
+.output__hairColour {
+color: burlywood;
+}
+.output__wand {
+  color: seagreen;
+}
+.output__patronus {
+  color: skyblue;
+}
+.output__hogwartsStudent {
+  color:saddlebrown ;
+}
+.output__hogwartsStaff {
+color: chartreuse;
+}
+.output__actor {
+  color: crimson;
+}
+.output__alive {
+color: darkgoldenrod;
+}
